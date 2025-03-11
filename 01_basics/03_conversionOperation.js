@@ -33,6 +33,14 @@ let str2 = " jhuma"
 let str3 = str1 + str2 
 //console.log(str3)
 //console.log("1" + 2)
-console.log(1 + "2")
-console.log(3 + 4 * 5 % 4)// not a proper way to right code
-console.log(((3 + 4) * 5) % 4) // this is the proper way to write code
+// console.log(1 + "2")
+// console.log(3 + 4 * 5 % 4)// not a proper way to right code
+// console.log(((3 + 4) * 5) % 4) // this is the proper way to write code
+
+let y = 5
+let x = ++y;
+console.log(x , y)// output = (6 , 6)
+
+let a = 5
+let b = y++;
+console.log(a , b)// output = (5 , 6)
