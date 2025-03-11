@@ -21,5 +21,18 @@ let booleanIsLoggedIn = Boolean(isLoggedin)
 let someString = 56
 
 let anotherString = String(someString)
-console.log(anotherString)
-console.log(typeof anotherString)
+// console.log(anotherString)
+// console.log(typeof anotherString)
+
+
+
+//********************************OPERATIONS****************************//
+
+let str1 = "koushik"
+let str2 = " jhuma"
+let str3 = str1 + str2 
+//console.log(str3)
+//console.log("1" + 2)
+console.log(1 + "2")
+console.log(3 + 4 * 5 % 4)// not a proper way to right code
+console.log(((3 + 4) * 5) % 4) // this is the proper way to write code
