@@ -27,6 +27,7 @@ let myObj = {
     name: "koushik",
     age: 25,
 }
+//console.log(myObj.name , age);
 
 //functions
 const myFunction = function(){
@@ -38,3 +39,23 @@ const myFunction = function(){
 // console.log(typeof null)// output- object cause null is a object
 // console.log(typeof undefined)// output - undefined
 // console.log(typeof "symbol")
+
+
+//***********************************MEMORY****************************** *//
+
+// Stack memory for primitive type    and   heap memory for non-primitive type
+let myName = "koushikchowdhury"
+let myAnothername = myName
+myAnothername = "Raju"
+//console.log(myAnothername , myName);
+
+let myChannel = {
+    name : "koushik_raju",
+    upi : "raj@ybl"
+}
+let myDetails = myChannel;
+myDetails.name = "raju chowdhury"
+console.log(myDetails.name);
+console.log(myChannel.name);
+
+
