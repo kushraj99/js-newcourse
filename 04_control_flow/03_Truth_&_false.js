@@ -1,8 +1,8 @@
 const userName = []
 
-// if(userName){
-//     console.log("it is ok");
-// }
+if(userName){
+    console.log("it is ok");
+}
 // there are some values which are considered as truthy or falsy values
 //falsy = false , 0 , -0 , BigInt 0n , null , undefined , "", NaN
 //truthy = true , any value in "",  " ",[],{},function(){}
@@ -21,11 +21,11 @@ if(Object.keys(User).length === 0){
 //Nullish coalescing operator(??): null undefined
  
 let val1;
-//val1 = 10< ?? 15
-// val1 = null ?? 15<
-//val1= null ?? undefined<
-// val1 = null ?? 10< ?? 20
-// val1 = undefined ?? 10< ?? 20
+val1 = 10< ?? 15
+val1 = null ?? 15<
+val1= null ?? undefined<
+val1 = null ?? 10< ?? 20
+val1 = undefined ?? 10< ?? 20
 console.log(val1);
 
 
